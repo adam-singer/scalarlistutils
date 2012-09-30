@@ -18,6 +18,7 @@ class CString {
     return length;
   }
 
+  /// Compares str1 and str2. Returning 0 in the case that they are identical.
   static int compare(ByteArray str1, int offset1, ByteArray str2, int offset2) {
     int str1Length = str1.lengthInBytes();
     int str2Length = str2.lengthInBytes();
